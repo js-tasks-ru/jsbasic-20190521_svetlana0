@@ -4,6 +4,7 @@
  * @param {number} n index
  * @returns {number}
  */
-function sum (m, n) {
-
-}
+ function sum (m, n) {
+     return n+m;
+ }
+ alert(sum(1,1));
