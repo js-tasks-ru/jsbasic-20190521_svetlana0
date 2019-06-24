@@ -13,3 +13,6 @@ function pow (m, n) {
             return m;
         }
     };
+
+pow(2,3);
+pow(3,4);
