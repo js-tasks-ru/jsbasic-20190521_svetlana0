@@ -4,6 +4,15 @@
  * @param {number} n index
  * @returns {number}
  */
-function pow (m, n) {
+ "use strict";
 
-}
+function pow (m, n) {
+        if (n != 1) {
+            return m * pow(m, n - 1);
+        } else {
+            return m;
+        }
+    };
+
+pow(2,3);
+pow(3,4);
